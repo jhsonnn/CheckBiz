@@ -1,0 +1,16 @@
+{
+  "name": "CheckBiz",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jhsonnn/CheckBiz.git",
+  "author": "jhsonnn <jihyeongson13@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "styled-components": "^6.1.17"
+  }
+}

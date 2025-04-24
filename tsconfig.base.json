@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@checkbiz/ui": ["packages/ui"]
+    }
+  }
+}
