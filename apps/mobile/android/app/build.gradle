@@ -1,0 +1,26 @@
+apply plugin: "com.android.application"
+apply plugin: "com.facebook.react"
+
+android {
+    namespace "com.checkbiz"
+    compileSdkVersion 35
+
+    defaultConfig {
+        applicationId "com.checkbiz"
+        minSdkVersion 24
+        targetSdkVersion 35
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            shrinkResources false
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    implementation "com.facebook.react:react-android"
+}
