@@ -77,5 +77,6 @@ yarn dev
 ## 향후 계획
 
 - 공공 API 와의 연동
-- apps/mobile 추가
+- apps/mobile 추가 설정
+- CI/CD
 - Vercel/Play Store/App Store 배포
